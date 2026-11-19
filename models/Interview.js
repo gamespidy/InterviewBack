@@ -140,7 +140,8 @@ const interviewSchema = new mongoose.Schema({
       'Selected',
       'Rejected',
       'On Hold',
-      'Withdrawn'
+      'Withdrawn',
+      'Fake Job'
     ],
     default: 'Applied',
     index: true

@@ -122,7 +122,8 @@ const getAnalytics = async (req, res) => {
       'Selected',
       'Rejected',
       'On Hold',
-      'Withdrawn'
+      'Withdrawn',
+      'Fake Job'
     ];
 
     const statusDistribution = allStatuses.map(status => ({
